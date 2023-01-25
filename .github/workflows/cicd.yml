@@ -8,7 +8,7 @@ name: Build and Deploy Stage
 on:
   push:
     branches:
-      - "cicd1"
+      - '*'
     paths-ignore:
       - 'yamls'
 
